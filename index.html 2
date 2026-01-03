@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Обо мне 2</title>
+</head>
+<body>
+
+<header>
+    <h1>Алихан</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#skills">Навыки и умения</a></li>
+        <li><a href="#contact">Контакты</a></li>
+    </ul>
+</nav>
+
+<main class="container">
+
+    <article id="about">
+        <h2>Обо мне</h2>
+        <p>Я изучаю HTML по aitk.kz и создаю свой сайт.</p>
+    </article>
+
+    <section id="skills">
+        <h2>Мои навыки</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Навык</th>
+                    <th>Уровень</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Начальный</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Нулевой</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="projects">
+        <h2>Проекты</h2>
+        <div class="project-card">
+            <p>Личный сайт</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form>
+            <label>
+                Имя:
+                <input type="text" name="name">
+            </label><br><br>
+
+            <label>
+                Email:
+                <input type="email" name="email">
+            </label><br><br>
+
+            <label>
+                Сообщение:
+                <textarea name="message"></textarea>
+            </label><br><br>
+
+            <label>
+                <input type="checkbox">
+                Я согласен на обработку данных
+            </label><br><br>
+
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>2026</p>
+</footer>
+
+</body>
+</html>
+
+
+                
